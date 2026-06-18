@@ -1,1 +1,1 @@
-# INFOTACT-intern-project
+# Predictive Maintenance
