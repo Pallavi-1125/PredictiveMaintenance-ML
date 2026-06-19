@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Predictive Maintenance using Machine Learning
 
 ## Project Overview
@@ -25,3 +26,6 @@ predictive-maintenance-ml/
 
 ## Goal
 Build a machine learning model to predict machine failures using IoT sensor data.
+=======
+# Predictive Maintenance
+>>>>>>> 3a0010905b3a9940aacbd569e11fe6f20fa80819
