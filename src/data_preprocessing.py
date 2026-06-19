@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv("data/predictive_maintenance.csv")
+df = pd.read_csv("data/ai4i_predictive_maintenance.csv")
 
 # Show first 5 rows
 print(df.head())
