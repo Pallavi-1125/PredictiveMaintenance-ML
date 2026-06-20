@@ -1,47 +1,47 @@
-<<<<<<< HEAD
 # Predictive Maintenance using Machine Learning
 
-## Project Overview
-This project predicts machine failure before breakdown using sensor and environmental data.
+## Project Objective
+Predict machine failure using machine sensor data before breakdown occurs.
 
-## Tech Stack
+## Dataset
+AI4I Predictive Maintenance Dataset
+
+## Technologies Used
 - Python
 - Pandas
-- NumPy
+- Matplotlib
 - Scikit-learn
-- LightGBM
+- SMOTE
+- Joblib
 - Streamlit
 
-## Project Structure
+## Workflow
+- Data Preprocessing
+- Exploratory Data Analysis
+- Feature Correlation Analysis
+- Data Cleaning
+- Label Encoding
+- Train/Test Split
+- SMOTE Balancing
+- Random Forest Training
+- Model Evaluation
+- Model Deployment using Streamlit
 
-predictive-maintenance-ml/
-│
-├── data/
-├── notebooks/
-├── src/
-├── models/
-├── README.md
-├── requirements.txt
-└── .gitignore
+## Model Performance
+Accuracy: 92.4%
 
-## Goal
-Build a machine learning model to predict machine failures using IoT sensor data.
-=======
-# Predictive Maintenance
->>>>>>> 3a0010905b3a9940aacbd569e11fe6f20fa80819
-# Predictive Maintenance using Machine Learning
+Classification Report:
 
-## Progress
+Class 0 (No Failure)
+- Precision: 98%
+- Recall: 94%
 
-✅ Dataset loading completed  
-✅ Data preprocessing completed  
-✅ Exploratory Data Analysis completed  
+Class 1 (Failure)
+- Precision: 47%
+- Recall: 76%
 
-## Dataset Summary
+## Run Project
 
-- Total Records: 10000
-- Machine Failure Cases: 638
-- Non Failure Cases: 9362
+pip install -r requirements.txt
 
-Observation:
-Dataset is imbalanced and requires balancing before model training.
+streamlit run app.py
